@@ -1,0 +1,42 @@
+{
+  "locations": {
+    "B400A": {
+      "stations": [
+        "Test_1",
+        "Test_2",
+        "Test_bench"
+      ]
+    },
+    "L1127": {
+      "stations": [
+        "Test_bench"
+      ]
+    }
+  },
+  "storage_ring": {
+    "sector_start": 1,
+    "sector_end": 40,
+    "cabinet_start": 1,
+    "cabinet_end": 5
+  },
+  "ip_addresses": [
+    "192.168.1.2",
+    "192.168.2.2",
+    "192.168.3.2",
+    "192.168.4.2",
+    "192.168.5.2",
+    "192.168.6.2",
+    "192.168.7.2",
+    "192.168.8.2"
+  ],
+  "defaults": {
+    "target_mode": "Storage Ring",
+    "location": "B400A",
+    "station": "Test_1",
+    "sector": "S01",
+    "cabinet": "Cab_1",
+    "duration_s": 120.0,
+    "interval_s": 0.40,
+    "analysis": "Live Monitor"
+  }
+}

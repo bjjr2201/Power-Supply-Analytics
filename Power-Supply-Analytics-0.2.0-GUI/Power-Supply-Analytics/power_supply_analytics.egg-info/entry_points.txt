@@ -1,0 +1,2 @@
+[console_scripts]
+power-supply-analytics = power_supply_analytics_gui:main
